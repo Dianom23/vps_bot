@@ -5,7 +5,10 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "nodemon app.js"
+        "dev": "nodemon app.js",
+        "pm2": "npm i pm2 -g",
+        "start": "pm2 start app.js",
+        "stop": "pm2 stop app.js"
     },
     "keywords": [],
     "author": "",
